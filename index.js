@@ -26,6 +26,7 @@ modalScore.addEventListener("click", (e) => {
 
   if (isValidClass) {
     modalScore.style.display = "none";
+    window.location.reload();
   }
 });
 
