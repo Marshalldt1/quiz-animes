@@ -9,6 +9,7 @@ body {
 /* quiz principal e perguntas */
 section {
   margin-top: 4%;
+  display: none;
 }
 .header {
   max-width: 100%;
@@ -17,6 +18,27 @@ section {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+.animes {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.animes img {
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%;
+  margin: 20px;
+}
+
+main .teste {
+  display: block;
+}
+
+main > h1 {
+  margin: 20px;
+  text-align: center;
 }
 h1 {
   font-size: 40px;
@@ -98,9 +120,8 @@ button > .button-result {
 }
 .modal > button {
   width: 40%;
- padding: 8px;
+  padding: 8px;
   font-size: 15px;
-
 }
 .img-resultado {
   height: 50%;
@@ -111,6 +132,23 @@ button > .button-result {
   color: white;
 }
 
+/* choose anime quiz and hide others */
+main section {
+  display: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding: 10px;
+}
+footer a {
+  width: 30px;
+  margin: 4px;
+}
+
 @media screen and (max-width: 500px) {
   form {
     margin: 15px;
@@ -119,10 +157,10 @@ button > .button-result {
     font-size: 30px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
   label {
-    font-size: 16px;
+    font-size: 14px;
   }
   p {
     margin: 0 20px 0 20px;
