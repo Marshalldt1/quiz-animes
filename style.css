@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+}
+
+body {
+  /* background-color: rgb(253, 243, 230); */
+  font-family: arial;
+}
+/* quiz principal e perguntas */
+section {
+  margin-top: 4%;
+}
+.header {
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+h1 {
+  font-size: 40px;
+}
+
+form {
+  max-width: 900px;
+  margin: auto;
+}
+.questao {
+  margin-bottom: 50px;
+  border: 1px solid rgba(167, 165, 165, 0.575);
+  background-color: rgba(61, 18, 18, 0.048);
+}
+.questao > div {
+  padding: 14px;
+  border-radius: 4px 0;
+  border-bottom: 1px solid rgba(167, 165, 165, 0.575);
+}
+.img-container {
+  text-align: center;
+  align-items: center;
+}
+.img-container > img {
+  width: 60%;
+}
+h2 {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid gray;
+}
+
+label {
+  font-size: 20px;
+  cursor: pointer;
+}
+.button-container {
+  align-items: center;
+  text-align: center;
+  padding-bottom: 30px;
+}
+button {
+  border: 1px solid white;
+  background: crimson;
+  font-size: 30px;
+  border-radius: 20px;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}
+button > .button-result {
+  text-decoration: none;
+  color: white;
+}
+
+/* Modal score e resultado */
+.modal-score {
+  background-color: gray;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.modal-popup {
+  background-color: white;
+  text-align: center;
+  max-width: 350px;
+  margin: 10% auto;
+}
+.modal {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+.modal > button {
+  width: 40%;
+ padding: 8px;
+  font-size: 15px;
+
+}
+.img-resultado {
+  height: 50%;
+  width: 60%;
+}
+.a-modal {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  form {
+    margin: 15px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  label {
+    font-size: 16px;
+  }
+  p {
+    margin: 0 20px 0 20px;
+  }
+  .header .img-header img {
+    width: 70%;
+  }
+  .img-container > img {
+    width: 70%;
+  }
+}

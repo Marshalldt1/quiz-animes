@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz interativo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section>
+    <div class="header" id="inicio">
+      <h1>QUIZ INTERATIVO DE ANIME</h1>
+      <p>Quiz de One Piece com perguntas do início, meio e fim do anime. Teste seu conhecimento =)</p>
+      <div class="img-header"><img src="https://pm1.narvii.com/6767/0291a63cba3459789e5b90e2c6fdc026b21fa1cfv2_00.jpg" alt="do you one piece ?"></div>
+    </div>
+    <div class="modal-score">
+      <div class="modal-popup">
+        <div class="modal">
+          <h3 class="resultado"></h3>
+          <p class="resultado-p"></p>
+          <div class="img-modal"></div>
+          <a class="a-modal" href="#inicio"><button class="buttonResult">Jogar novamente</button></a>
+        </div>
+      </div>
+    </div>
+    <form action="">
+      <div>
+        <div class="questao" id="Q-1">
+          <h2>1 - Quem deu o Chapéu de Palha para Luffy? </h2>
+          <div class="img-container">
+            <img class="img-1" src="https://sm.ign.com/t/ign_br/screenshot/default/luffy-one-piece_13wf.600.jpg" alt="luffy">
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion1" id="1-A" value="A">
+            <label for="1-A">Ussop</label>
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion1" id="1-B" value="B">
+            <label for="1-B">Shanks</label>
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion1" id="1-C" value="C">
+            <label for="1-C">Rayleigh</label>
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion1" id="1-D" value="D">
+            <label for="1-D">Naruto</label>
+          </div>
+        </div>
+
+        <div class="questao" id="Q-2">
+          <h2>2 - Qual o músico da tripulação do Luffy?</h2>
+          <div class="img-container">
+            <img class="img-2" src="img/brook pixelado.png" alt="brook">
+          </div>
+
+
+          <div>
+            <input type="radio" name="inputQuestion2" value="A" id="2-A">
+            <label for="2-A">Franky</label>
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion2" value="B" id="2-B">
+            <label for="2-B">Zoro</label>
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion2" value="C" id="2-C">
+            <label for="2-C">Nami</label>
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion2" value="D" id="2-D">
+            <label for="2-D">Brook</label>
+          </div>
+        </div>
+        <div class="questao" id="Q-3">
+          <h2>3 - Quem treinou o Luffy durante 2 anos do time skip ?</h2>
+          <div class="img-container">
+            <img class="img-2" src="https://kanto.legiaodosherois.com.br/w760-h398-cfill/wp-content/uploads/2020/07/legiao_5QZA42qNvlaX.jpg.webp" alt="treino luffy">
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion3" value="A" id="3-A">
+            <label for="3-A">Shanks</label>
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion3" value="B" id="3-B">
+            <label for="3-B">Rayleigh</label>
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion3" value="C" id="3-C">
+            <label for="3-C">Ace</label>
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion3" value="D" id="3-D">
+            <label for="3-D">Aokiji</label>
+          </div>
+        </div>
+
+        <div class="questao" id="Q-4">
+          <h2>4 - Qual o maior obstáculo dos usuários de uma Akuma no Mi?</h2>
+          <div class="img-container">
+            <img class="img-2" src="https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2022/01/31081257/Devil-Fruit-One-Piece.webp" alt="fraqueza">
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion4" value="A" id="4-A">
+            <label for="4-A">Eles não podem se ferir</label>
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion4" value="B" id="4-B">
+            <label for="4-B">Eles não conseguem beber agua</label>
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion4" value="C" id="4-C">
+            <label for="4-C">Dificuldade para respirar</label>
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion4" value="D" id="4-D">
+            <label for="4-D">Eles não conseguem nadar</label>
+          </div>
+        </div>
+
+        <div class="questao" id="Q-5">
+          <h2>5 - Qual o cargo de Monkey D. Garp na Marinha?</h2>
+          <div class="img-container">
+            <img class="img-2" src="img/Garp_Levando_Luffy_para_viver_com_Dadan.png" alt="garp">
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion5" value="A" id="5-A">
+            <label for="5-A">Almirante</label>
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion5" value="B" id="5-B">
+            <label for="5-B">Vice-almirante</label>
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion5" value="C" id="5-C">
+            <label for="5-C">Capitão</label>
+          </div>
+          <div>
+            <input type="radio" name="inputQuestion5" value="D" id="5-D">
+            <label for="5-D">General</label>
+          </div>
+        </div>
+
+        <div class="button-container">
+          <button class="buttonResult">Resultado</button>
+        </div>
+    </form>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
