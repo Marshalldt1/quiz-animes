@@ -28,7 +28,7 @@ section {
 .animes img {
   border-radius: 4px;
   cursor: pointer;
-  width: 20%;
+  width: 25%;
   margin: 20px;
 }
 
@@ -150,6 +150,13 @@ footer a {
 }
 
 @media screen and (max-width: 500px) {
+  .animes {
+    text-align: center;
+    display: block;
+  }
+  .animes img {
+    width: 50%;
+  }
   form {
     margin: 15px;
   }
